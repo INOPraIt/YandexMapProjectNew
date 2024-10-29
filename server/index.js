@@ -12,7 +12,7 @@ const app = express();
 
 app.get('/', (req, res) => res.send('Home Page Route'));
 
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+// app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({origin: true, credentials: true}));
