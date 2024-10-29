@@ -1,0 +1,487 @@
+$base-height: 20vh;
+
+.containerHome {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0);
+
+  .blockForm {
+    width: 100%;
+    display: flex;
+
+    .itemForm {
+      width: 20%;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+
+    .itemSelect {
+      width: 20%;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+  }
+
+  .containerMapOne {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .itemMapOne {
+      width: 78%;
+      padding-left: 1%;
+      margin-left: 10px;
+      border-radius: 5px;
+      height: 70.5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgb(219, 219, 219);
+      padding: 0px;
+
+      .mapStyles {
+        width: 100%;
+        height: 70vh;
+        border-radius: 50px;
+      }
+    }
+
+    .itemPanelOne {
+      height: 70.5vh;
+      width: 20%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+
+  .itemNewsPanel {
+    height: 70.5vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 20px;
+    overflow: auto;
+    .cardNewsOne {
+      display: flex;
+      width: 100%;
+      margin-top: 20px;
+
+      .cardNewsOnes {
+        width: 15%;
+      }
+    }
+  }
+
+  //media-screens
+  @media screen and (max-width: 1440px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+
+      .itemForm {
+        width: 40%;
+        margin-left: 10px;
+      }
+  
+      .itemSelect {
+        width: 40%;
+        margin-left: 10px;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+  
+      .itemMapOne {
+        width: 59.8%;
+        margin-left: 10px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mapStyles {
+          width: 100%;
+          height: 100vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 40%;
+        height: 100vh;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+  
+        .cardNewsOnes {
+          width: 30%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+
+      .itemForm {
+        width: 40%;
+        margin-left: 10px;
+      }
+  
+      .itemSelect {
+        width: 40%;
+        margin-left: 10px;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+  
+      .itemMapOne {
+        width: 59.8%;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        margin-left: 10px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        border-radius: 5px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mapStyles {
+          width: 100%;
+          height: 100vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 40%;
+        height: 100vh;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+  
+        .cardNewsOnes {
+          width: 40%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+  
+  
+      .itemForm {
+        width: 40%;
+        margin-left: 10px;
+      }
+  
+      .itemSelect {
+        width: 40%;
+        margin-left: 10px;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+  
+      .itemMapOne {
+        width: 59.8%;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        margin-left: 10px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 0, 0, 0);
+  
+        .mapStyles {
+          width: 100%;
+          height: 100vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 40%;
+        height: 100vh;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+  
+        .cardNewsOnes {
+          width: 40%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 460px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .itemForm {
+        width: 98%;
+        margin-left: 1%;
+      }
+  
+      .itemSelect {
+        width: 98%;
+        margin-left: 1%;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  
+      .itemMapOne {
+        width: 98%;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        margin-left: 1%;
+        margin-top: 20px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mapStyles {
+          width: 100%;
+          height: 20vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 98%;
+        margin-left: 1%;
+        height: 80vh;
+        margin-top: 20px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+  
+        .cardNewsOnes {
+          width: 100%;
+          margin-top: 20px;
+          margin-left: -5%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .itemForm {
+        width: 98%;
+        margin-left: 1%;
+      }
+  
+      .itemSelect {
+        width: 98%;
+        margin-left: 1%;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  
+      .itemMapOne {
+        width: 98%;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        margin-left: 1%;
+        margin-top: 20px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mapStyles {
+          width: 100%;
+          height: 40vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 98%;
+        margin-left: 1%;
+        height: 50vh;
+        margin-top: 90px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+  
+        .cardNewsOnes {
+          width: 100%;
+          margin-top: 20px;
+          margin-left: -5%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .blockForm {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .itemForm {
+        width: 98%;
+        margin-left: 1%;
+      }
+  
+      .itemSelect {
+        width: 98%;
+        margin-left: 1%;
+      }
+    }
+    .containerMapOne {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  
+      .itemMapOne {
+        width: 98%;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        margin-left: 1%;
+        margin-top: 20px;
+        border: 1px solid rgb(238, 238, 238);
+        border-radius: 5px;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .mapStyles {
+          width: 100%;
+          height: 20vh;
+        }
+      }
+  
+      .itemPanelOne {
+        width: 98%;
+        margin-left: 1%;
+        height: 100vh;
+        margin-top: 20px;
+      }
+    }
+
+    .itemNewsPanel {
+      height: 100vh;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      margin-left: -1px;
+
+      .cardNewsOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+  
+        .cardNewsOnes {
+          width: 100%;
+          margin-top: 20px;
+          margin-left: -5%;
+        }
+      }
+    }
+  }
+}
