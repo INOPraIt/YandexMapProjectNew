@@ -4,6 +4,7 @@ import './style.scss';
 import axios from 'axios';
 import News from '../../components/News';
 import Pointer from '../../components/Pointer';
+import logo from '../../assets/logo.png'
 
 export default () => {
 
@@ -51,7 +52,10 @@ export default () => {
     <div className='containerHome'>
       <div className='blockForm'>
         <div className='itemForm'>
-          <div className="input-group">
+          <div>
+            <img src={logo} style={{width: '100px'}}/>
+          </div>
+          <div style={{marginLeft: '20px', height: "20px"}}className="input-group">
             <input
               type="text"
               className="form-control"

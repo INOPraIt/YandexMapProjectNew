@@ -7,16 +7,17 @@ import FormPointer from '../../components/FormPointer';
 import axios from 'axios';
 
 export default () => {
+
+  //state
   const [dataPointers, setDataPointers] = React.useState([]);
 
+  //use Effect response data pointers
   React.useEffect(() => {
     axios.get('http://localhost:7000/api/pointers')
       .then(function (response) {
         setDataPointers(response.data);
       });
   }, []);
-
-  console.log('data', dataPointers);
 
   return (
     <>
