@@ -20,9 +20,9 @@ export default connect((s) => ({
     const [latitude, setLatitude] = React.useState(0);
     const [longitude, setLongitude] = React.useState(0);
     const [category, setCategory] = React.useState('');
-    const [opening, setOpening] = React.useState(0);
-    const [closing, setClosing] = React.useState(0);
-    const [phone, setPhone] = React.useState(0);
+    const [opening, setOpening] = React.useState('');
+    const [closing, setClosing] = React.useState('');
+    const [phone, setPhone] = React.useState('');
     const [image, setImage] = React.useState(null);
 
     const createdPointer = () => {

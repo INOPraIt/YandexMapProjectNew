@@ -27,17 +27,17 @@ const PointerSchema = new Schema({
     required: true
   },
   opening: {
-    type: Number,
+    type: String,
     unique: false,
     required: false
   },
   closing: {
-    type: Number,
+    type: String,
     unique: false,
     required: false
   },
   phone: {
-    type: Number,
+    type: String,
     unique: false,
     required: false
   },
